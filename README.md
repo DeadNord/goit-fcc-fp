@@ -19,3 +19,6 @@ eb deploy
 
 # 4. Відкрити у браузері
 eb open
+
+# Для видаленя
+eb terminate fp-prod-env --profile fp-deployer
