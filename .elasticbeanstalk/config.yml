@@ -1,8 +1,9 @@
 branch-defaults:
   default:
-    environment: fp-prod-env        # назва env, що створить eb create
+    environment: fp-prod-env
+
 global:
   application_name: fp-app
-  default_platform: Docker          # каже EB використовувати Docker‑платформу
-  region: eu-central-1              # ваш регіон
-  profile: fp-deployer              # IAM‑профіль CLI
+  default_platform: "Docker running on 64bit Amazon Linux 2"
+  default_region: eu-central-1
+  profile: fp-deployer
