@@ -1,11 +1,9 @@
 branch-defaults:
   default:
     environment: fp-prod-env
-  main:
-    environment: null
-    group_suffix: null
+
 global:
   application_name: fp-app
-  default_platform: Docker running on 64bit Amazon Linux 2
+  default_platform: "Docker running on 64bit Amazon Linux 2"
   default_region: eu-central-1
   profile: fp-deployer
