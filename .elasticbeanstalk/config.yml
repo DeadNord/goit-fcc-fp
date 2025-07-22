@@ -2,7 +2,7 @@ branch-defaults:
   default:
     environment: fp-prod-env
   main:
-    environment: fp-prod-env
+    environment: null
 global:
   application_name: fp-app
   branch: null
